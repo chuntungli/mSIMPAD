@@ -210,9 +210,9 @@ axes[2].set_xticklabels(['10k', '20k', '30k', '40k', '50k'])
 axes[2].set_xlabel('Searching Range', fontsize=12)
 
 axes[3].plot(aggResult_d.index, aggResult_d.time, color = 'r')
-axes[2].set_xticks(np.arange(0, 300, step=50))
-axes[2].set_xlim((-5, 255))
-axes[2].set_xlabel('Dimension', fontsize=12)
+axes[3].set_xticks(np.arange(0, 300, step=50))
+axes[3].set_xlim((-5, 255))
+axes[3].set_xlabel('Dimension', fontsize=12)
 
 fig.add_subplot(111, frameon=False)
 plt.tick_params(labelcolor='none', top=False, bottom=False, left=False, right=False)
